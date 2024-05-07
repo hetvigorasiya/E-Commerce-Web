@@ -6,7 +6,75 @@
 }
 
 /* navbar  */
+
 .logo{
   vertical-align: middle;
   border-style: none;
+}
+li:hover{
+  color: orangered;
+}
+.icon:hover{
+  color: orangered;
+}
+
+/* home  */
+
+.banner{
+  background-image: url(../src/Image/Background/slider-bg.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 610px;
+  width: 100%;
+}
+.b-heading{
+  color: #f7444e;
+  font-size: 65px;
+  padding-top: 100px;
+}
+.b-heading2{
+  font-size: 65px;
+}
+.btn1{
+  display: inline-block;
+  padding: 12px 45px;
+  background-color: #f7444e;
+  border: 1px solid #f7444e;
+}
+.b-content{
+  letter-spacing: 0.7px;
+}
+
+/* with shop us part  */
+
+.heading{
+  font-size: 50px;
+}
+.icn{
+  font-size: 60px;
+}
+.box{
+  background-color: #002c3e;
+  padding: 45px 50px;
+}
+
+/* our product part */
+
+.product{
+  color: #f7444e;
+}
+.img-box{
+  width: 50%;
+  height: 170px;
+}
+.price{
+  margin-left: 40px;
+}
+.box1{
+  padding: 40px 50px;
+  background-color: lightgrey;
+  border: 7px solid lightgrey;
+  border-right-color:white;
+  border-bottom-color:white;
+  box-shadow: 5px 5px 5px -5px rgba(0, 0, 0, .2)
 }
