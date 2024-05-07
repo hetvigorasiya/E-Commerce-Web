@@ -48,7 +48,7 @@ li:hover{
 /* with shop us part  */
 
 .heading{
-  font-size: 50px;
+  font-size: 40px;
 }
 .icn{
   font-size: 60px;
@@ -68,13 +68,85 @@ li:hover{
   height: 170px;
 }
 .price{
-  margin-left: 40px;
+  margin-left: 75px;
+}
+.price2{
+  margin-left: 65px;
 }
 .box1{
   padding: 40px 50px;
-  background-color: lightgrey;
-  border: 7px solid lightgrey;
+  background-color: rgb(237, 235, 235);
+  border: 7px solid rgb(237, 235, 235);
   border-right-color:white;
   border-bottom-color:white;
   box-shadow: 5px 5px 5px -5px rgba(0, 0, 0, .2)
+}
+.btn2{
+  display: inline-block;
+  padding: 12px 142px;
+  background-color: #f7444e;
+  border: 1px solid #f7444e;
+}
+
+/* subscribe  */
+
+.e-mail{
+  height: 50px;
+  width: 465px;
+  padding-left: 20px;
+  border-radius: 30px;
+  border:1px solid lightgrey;
+}
+.btn3{
+  display: inline-block;
+  padding: 12px 62px;
+  background-color: #f7444e;
+  border: 1px solid #f7444e;
+  border-radius: 30px;
+}
+.subscribe{
+  background-color: #d4ced0;
+}
+
+/* footer  */
+
+.logo2{
+  height:50px;
+  width: 50%;
+  display: inline-block;
+}
+.E-mail{
+  border: solid #ccc 1px;
+  box-shadow: none;
+  width: 65%;
+  height: 48px;
+  padding-left: 10px;
+}
+.btn4{
+  display: inline-block;
+  padding: 12px 18px;
+  background-color: #f7444e;
+  border: 1px solid #f7444e;
+}
+.copy{
+  background-color: #002c3e;
+}
+
+/* about page  */
+
+.about{
+  background-color: #f7444e;
+}
+
+/* // contact */
+
+.input,.textarea{
+  border: solid #ccc 1px;
+  height: 50px;
+  width: 100%;
+  padding-left: 20px;
+  text-transform: capitalize
+}
+.textarea{
+  height: 100px;
 }
