@@ -75,8 +75,8 @@ li:hover{
 }
 .box1{
   padding: 40px 50px;
-  background-color: rgb(237, 235, 235);
-  border: 7px solid rgb(237, 235, 235);
+  background-color: rgb(250, 247, 247);
+  border: 7px solid rgb(250, 247, 247);
   border-right-color:white;
   border-bottom-color:white;
   box-shadow: 5px 5px 5px -5px rgba(0, 0, 0, .2)
@@ -149,4 +149,16 @@ li:hover{
 }
 .textarea{
   height: 100px;
+}
+
+
+/* //product  */
+
+.products{
+  box-shadow: 5px 5px 5px -5px rgba(0, 0, 0, .2);
+}
+
+.img-box2{
+  width: 50%;
+  height: 200px;
 }

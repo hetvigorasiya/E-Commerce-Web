@@ -26,9 +26,9 @@ const Pages = () => {
 
         <div className="row">
 
-          <div class="col-md-4">
-            <div class="box  mt-5 text-light rounded text-center ">
-              <div class="detail-box">
+          <div className="col-md-4">
+            <div className="box  mt-5 text-light rounded text-center ">
+              <div className="detail-box">
                 <CiDeliveryTruck className='icn' />
                 <h5 className='fw-bold mt-2'>Fast Delivery </h5>
                 <p className='mb-1'> variations of passages of Lorem</p>
@@ -37,9 +37,9 @@ const Pages = () => {
             </div>
           </div>
 
-          <div class="col-md-4">
-            <div class="box  mt-5 text-light rounded text-center">
-              <div class="detail-box ">
+          <div className="col-md-4">
+            <div className="box  mt-5 text-light rounded text-center">
+              <div className="detail-box ">
                 < DiClojure className='icn' />
                 <h5 className='fw-bold mt-2'>Free Shiping </h5>
                 <p className='text-center mb-1'> variations of passages of Lorem</p>
@@ -48,9 +48,9 @@ const Pages = () => {
             </div>
           </div>
 
-          <div class="col-md-4">
-            <div class="box  mt-5 text-light rounded text-center">
-              <div class="detail-box">
+          <div className="col-md-4">
+            <div className="box  mt-5 text-light rounded text-center">
+              <div className="detail-box">
                 <CiMedal className='icn' />
                 <h5 className='fw-bold mt-2'>Best Quality </h5>
                 <p className='mb-1'> variations of passages of Lorem</p>

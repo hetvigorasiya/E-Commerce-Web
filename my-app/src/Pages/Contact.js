@@ -16,11 +16,11 @@ const Contact = () => {
           </div>
        </div>
 
-       <div class="container">
+       <div className="container">
          
-            <div class="row">
-               <div class="col-lg-8 offset-lg-2">
-                  <div class="full mt-5">
+            <div className="row">
+               <div className="col-lg-8 offset-lg-2">
+                  <div className="full mt-5">
                      <form>
                         <input type="text" placeholder="Enter Yoyr Full Name" name="name" required="" className='input mb-4'/>
                         <input type="email" placeholder="Enter Your E-mail Address" name="email" required="" className='input mb-4' />

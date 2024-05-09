@@ -4,13 +4,13 @@ const Footer = () => {
     return (
         <>
             <footer className='mt-5'>
-                <div className='bg-light py-5'>
+                <div className='bg-light py-2'>
                     <div className="container">
                         <div className="row">
 
                             <div className="col-md-4">
-                                <div className="full">
-                                    <div className="logo_footer mb-3">
+                                <div className="full pt-3">
+                                    <div className="logo_footer mb-4">
                                         <img width="210" src="https://themewagon.github.io/famms/images/logo.png" alt="#" />
                                     </div>
                                     <div className="information_f">
@@ -21,9 +21,9 @@ const Footer = () => {
                                 </div>
                             </div>
 
-                            <div class="col-md-2">
-                                <div class="widget_menu">
-                                    <h4 className='fw-bold'>Menu</h4>
+                            <div className="col-md-2">
+                                <div className="pt-3">
+                                    <h4 className='fw-bold mb-2'>Menu</h4>
                                     <div >Home</div>
                                     <div >bout</div>
                                     <div >Services</div>
@@ -33,9 +33,9 @@ const Footer = () => {
                                 </div>
                             </div>
 
-                            <div class="col-md-2">
-                                <div>
-                                    <h4 className='fw-bold'>Account</h4>
+                            <div className="col-md-2">
+                                <div className='pt-3'>
+                                    <h4 className='fw-bold mb-2'>Account</h4>
                                     <div>Account</div>
                                     <div>Checkout</div>
                                     <div>Login</div>
@@ -45,16 +45,16 @@ const Footer = () => {
                                 </div>
                             </div>
 
-                            <div class="col-md-4">
-                                <div class="widget_menu">
-                                    <h4 className='fw-bold'>Newsletter</h4>
-                                    <div class="information_f">
+                            <div className="col-md-4">
+                                <div className="pt-3">
+                                    <h4 className='fw-bold mb-2'>Newsletter</h4>
+                                    <div className="information_f">
                                         <p>Subscribe by our newsletter and get update protidin.</p>
                                     </div>
-                                    <div class="form_sub">
+                                    <div className="form_sub">
                                         <form>
                                             <fieldset>
-                                                <div class="field">
+                                                <div className="field">
                                                     <input type="email" placeholder="Enter Your Mail" name="email" className='E-mail' />
                                                     <input type="submit" value="Subscribe" className='btn4 text-light' />
                                                 </div>
@@ -72,6 +72,7 @@ const Footer = () => {
                     <p className="mx-auto mb-1">© 2021 All Rights Reserved By <span className='product'>Free Html Templates</span></p>
                     <p className='mx-auto'> Distributed By <span className='product'>ThemeWagon</span></p>
                 </div>
+                
             </footer>
         </>
     )
